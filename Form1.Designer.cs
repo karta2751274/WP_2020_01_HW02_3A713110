@@ -47,7 +47,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WP_2020_01_HW02_3A713110.Properties.Resources._003;
             this.pictureBox1.Location = new System.Drawing.Point(549, 288);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(105, 150);
@@ -62,6 +61,7 @@
             this.rtbMsg.Size = new System.Drawing.Size(149, 221);
             this.rtbMsg.TabIndex = 2;
             this.rtbMsg.Text = "";
+            this.rtbMsg.TextChanged += new System.EventHandler(this.rtbMsg_TextChanged);
             // 
             // frmGame
             // 

@@ -98,5 +98,10 @@ namespace WP_2020_01_HW02_3A713110
             list.Add(Resources._053);
             list.Add(Resources._054);
         }
+
+        private void rtbMsg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
